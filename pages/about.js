@@ -1,12 +1,14 @@
 import Link from 'next/link';
+import Navbar from '../components/Navbar';
 
 export default function About() {
   return (
     <div>
-      <Link href="/">
-        <a>Início</a>
-      </Link>
+      <Navbar />
       <h1>Sobre</h1>
+      <Link href="/">
+        <a>Voltar</a>
+      </Link>
     </div>
   );
 }
