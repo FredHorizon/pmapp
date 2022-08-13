@@ -1,10 +1,8 @@
 import Link from 'next/link';
-import Navbar from '../../../components/Navbar';
 
 export default function Shirts() {
   return (
     <div>
-      <Navbar />
       <h1>Camisas</h1>
       <ul>
         <li>
