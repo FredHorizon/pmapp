@@ -5,7 +5,11 @@ import styles from '../styles/Navbar.module.css';
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
-      <h1>Logo</h1>
+      <Link href="/">
+        <a>
+          <h1>Logo</h1>
+        </a>
+      </Link>
       <ul className="">
         <li>
           <Link href="/">
