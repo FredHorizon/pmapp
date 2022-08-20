@@ -20,7 +20,7 @@ export default function Todos({ todos }) {
       <ul className={styles.todolist}>
         {todos.map((todo) => (
           <li key={todo.id}>
-            {todo.title} -{' '}
+            {todo.id} {todo.title} -{' '}
             <Link href={`/todos/${todo.id}`}>
               <a>Continuar...</a>
             </Link>
