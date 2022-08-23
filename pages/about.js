@@ -9,8 +9,7 @@ export default function About() {
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
         corporis impedit doloremque vitae, iusto nemo harum laborum voluptatum
-        natus amet optio ab inventore repellat eum libero. Veritatis sed quam
-        dolorum!
+        natus amet optio ab inventore repellat eum libero.
       </p>
       <Image
         src="/images/charizard.png"
