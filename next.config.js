@@ -4,10 +4,9 @@ const nextConfig = {
   swcMinify: true,
 };
 
-module.exports = nextConfig;
-
 module.exports = {
+  nextConfig,
   images: {
-    domains: ['www.midianews.com.br'],
+    domains: ['cdn.traction.one'],
   },
 };
