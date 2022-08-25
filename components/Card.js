@@ -8,8 +8,8 @@ export default function Card({ pokemon }) {
     <div className={styles.card}>
       <Image
         src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`}
-        width="120"
-        height="120"
+        width="300"
+        height="300"
         alt={pokemon.name}
       />
       <p className={styles.id}>#{pokemon.id}</p>
